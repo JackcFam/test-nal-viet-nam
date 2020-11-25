@@ -32,9 +32,18 @@ const handleClose = () => {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleClose}></MenuItem>
-            <MenuItem onClick={handleClose}></MenuItem>
-            <MenuItem onClick={handleClose}></MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/">オフショア開発</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/about">NALブログ</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/services">ベトナム情報</Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/contact">お問い合わせ</Link>
+            </MenuItem>
           </Menu>
           <Link className="logo" to="/">
             <img src="https://i.imgur.com/Pcvw3EJ.jpg" alt="NAL MEDIA"></img>

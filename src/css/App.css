@@ -535,3 +535,26 @@ color:  #37BFDC;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+/* menu mobile */
+div.MuiPopover-root {
+  width: 100%;
+}
+div.MuiPopover-paper {
+    top:75px !important;
+    width: 100%;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: white !important;
+}
+.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button {
+  width: 100%;
+}
+.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button a {
+  text-decoration: none !important;
+  color: #999999;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+
+}
