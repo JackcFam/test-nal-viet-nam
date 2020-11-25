@@ -1,9 +1,14 @@
-import React from 'react';
+import React,{useState} from 'react';
 import AddClass from './AddClass';
 import BlogNew from './BlogNew';
 import { Link } from 'react-router-dom';
+// import { SemipolarLoading } from "react-loadingg";
 function Home(props) {
-    return (
+  // const [loading, setLoading] = useState(false);
+  return (
+
+    <>
+      {/* <SemipolarLoading /> */}
       <main className="main-content">
         <div className="todayhot">
           <div className="title-today-hot">
@@ -24,7 +29,8 @@ function Home(props) {
           </div>
         </div>
       </main>
-    );
+    </>
+  );
 }
 
 export default Home;
