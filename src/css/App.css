@@ -27,7 +27,6 @@ body {
 .warp-header {
   height: 40px;
   overflow: hidden;
-  margin: auto;
 }
 .container-menu {
   display: grid;
@@ -498,13 +497,6 @@ color:  #37BFDC;
 .back-to-top:hover {
   opacity: 1;
   background-color: #f67831;
-}
-
-@media (max-width: 575px) {
-  .back-to-top {
-    bottom: 25%;
-    right: 0px;
-  }
 }
 
 @-webkit-keyframes back-to-top {

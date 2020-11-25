@@ -1,11 +1,5 @@
 import React from "react";
 import ScrollUpButton from "react-scroll-up-button";
-// import PropTypes from 'prop-types';
-
-// BackToTop.propTypes = {
-
-// };
-
 function BackToTop(props) {
   return (
     <ScrollUpButton
