@@ -15,15 +15,18 @@ function AddClass(props) {
         return (
           <div className="item-cars" key={blog.id}>
             <div className="img-main-car">
-              <div class="price">{blog.author}</div>
+              <div class="price">
+                <i class="fas fa-user"></i>&nbsp;
+                {blog.author}
+              </div>
               <img src={blog.image} alt="true"></img>
             </div>
             <div className="content-item">
-              <div className="name-care">{blog.title}</div>
               <div className="date">
-                <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;
+                <i class="far fa-calendar-alt"></i>&nbsp;
                 {blog.date}
               </div>
+              <div className="name-care">{blog.title}</div>
             </div>
           </div>
         );

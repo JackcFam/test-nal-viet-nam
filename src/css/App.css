@@ -478,6 +478,11 @@ color:  #37BFDC;
   text-decoration: none;
   color: white;
 }
+.name-care {
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+  margin-top: 3px;
+}
 .item-cars:hover .name-care{
   color: #37BFDC;
 }
