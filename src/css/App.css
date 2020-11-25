@@ -283,6 +283,8 @@ color:  #37BFDC;
   display: inline-block !important;
   color: white;
   font-size: 14px;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
 }
 .list-footer .items:hover a{
   color: #37BFDC
@@ -362,7 +364,7 @@ color:  #37BFDC;
     left: 0px;
     width: 0%;
     background: linear-gradient(0deg, rgba(28,203,205,1) 43%, rgba(253,187,45,1) 100%);
-    transition: 0.4s;
+    transition: 0.3s;
   }
   .list-menu .list-item:hover a::after {
     width: 100%;
@@ -403,7 +405,7 @@ color:  #37BFDC;
   }
   .input-search,
   .form-email {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
   }
   .searchf {
     border-radius: 0px;
@@ -447,6 +449,17 @@ color:  #37BFDC;
   }
   .subcriebs {
     min-height: 350px;
+  }
+  .container-errors {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .errors {
+    display: inline-block;
+    color: red;
+    margin-right: 50px;
   }
 }
 .logo {
@@ -557,4 +570,12 @@ div.MuiPopover-paper {
   font-weight: bold;
   font-family: "Noto Serif", serif;
 
+}
+.errors {
+    display: inline-block;
+    color: red;
+  }
+.modal-content-alert {
+  width: 250px;
+  height: 150px;
 }
