@@ -367,6 +367,9 @@ color:  #37BFDC;
   .list-menu .list-item:hover a::after {
     width: 100%;
   }
+  .list-menu .list-item a.active::after {
+    width: 100%;
+  }
   .warp-car-top {
     grid-template-columns: 1fr 1fr 1fr;
   }

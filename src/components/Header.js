@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
+import { Link, NavLink } from "react-router-dom";
 function Header(props) {
 const [anchorEl, setAnchorEl] = useState(null);
 
@@ -31,33 +32,29 @@ const handleClose = () => {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleClose}>
-              
-            </MenuItem>
-            <MenuItem onClick={handleClose}>
-
-            </MenuItem>
-            <MenuItem onClick={handleClose}>
-
-            </MenuItem>
+            <MenuItem onClick={handleClose}></MenuItem>
+            <MenuItem onClick={handleClose}></MenuItem>
+            <MenuItem onClick={handleClose}></MenuItem>
           </Menu>
-          <div className="logo">
+          <Link className="logo" to="/">
             <img src="https://i.imgur.com/Pcvw3EJ.jpg" alt="NAL MEDIA"></img>
-          </div>
+          </Link>
         </div>
         <nav className="menu">
           <ul className="list-menu">
             <li className="list-item">
-              <a href="#">オフショア開発</a>
+              <NavLink activeClassName="active" exact to="/">
+                オフショア開発
+              </NavLink>
             </li>
             <li className="list-item">
-              <a href="#">NALブログ</a>
+              <NavLink to="/about">NALブログ</NavLink>
             </li>
             <li className="list-item">
-              <a href="#">ベトナム情報</a>
+              <NavLink to="/services">ベトナム情報</NavLink>
             </li>
             <li className="list-item">
-              <a href="#">お問い合わせ</a>
+              <NavLink to="/contact">お問い合わせ</NavLink>
             </li>
           </ul>
         </nav>

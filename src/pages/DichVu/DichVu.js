@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Services(props) {
+function DichVu(props) {
     return (
         <div>
-            
+
         </div>
     );
 }
 
-export default Services;
+export default DichVu;
