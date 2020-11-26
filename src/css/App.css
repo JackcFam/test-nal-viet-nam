@@ -553,10 +553,11 @@ color:  #37BFDC;
 /* menu mobile */
 div.MuiPopover-root {
   width: 100%;
+  padding: 0 5% !important;
 }
 div.MuiPopover-paper {
     top:75px !important;
-    width: 100%;
+    width: 90%;
     text-align: center !important;
     display: flex !important;
     justify-content: center !important;
@@ -616,5 +617,5 @@ div.carousel.slide  {
   color: #37BFDC;
   font-weight: bold;
   font-family: "Noto Serif", serif;
-  line-height: 23px
+  line-height: 30px;
 }
