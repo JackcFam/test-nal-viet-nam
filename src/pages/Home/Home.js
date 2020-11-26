@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import AddClass from './AddClass';
 import BlogNew from './BlogNew';
 import { Link } from 'react-router-dom';
+import SeviceHome from './SeviceHome';
 // import { SemipolarLoading } from "react-loadingg";
 function Home(props) {
   // const [loading, setLoading] = useState(false);
@@ -10,6 +11,7 @@ function Home(props) {
     <>
       {/* <SemipolarLoading /> */}
       <main className="main-content">
+        <SeviceHome></SeviceHome>
         <div className="todayhot">
           <div className="title-today-hot">
             <p>New Host</p>
